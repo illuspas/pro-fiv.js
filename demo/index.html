@@ -14,7 +14,7 @@
             <div id="streamURL">
                 <div class="url-input">
                     <label for="sURL">Stream URL:</label>
-                    <input id="sURL" type="text" value="http://127.0.0.1/flv/7182741-1.flv" />
+                    <input id="sURL" type="text" value="http://192.168.0.2:8000/tcl_265.flv" />
                     <button onclick="switch_mds()">Switch to MediaDataSource</button>
                 </div>
                 <div class="options">
@@ -204,18 +204,17 @@
             document.title = document.title + " (v" + version + ")";
         }
 
-        var logcatbox = document.getElementsByName('logcatbox')[0];
-        flvjs.LoggingControl.addLogListener(function(type, str) {
-            logcatbox.value = logcatbox.value + str + '\n';
-            logcatbox.scrollTop = logcatbox.scrollHeight;
-        });
+        // var logcatbox = document.getElementsByName('logcatbox')[0];
+        // flvjs.LoggingControl.addLogListener(function(type, str) {
+        //     logcatbox.value = logcatbox.value + str + '\n';
+        //     logcatbox.scrollTop = logcatbox.scrollHeight;
+        // });
 
         document.addEventListener('DOMContentLoaded', function () {
             streamURL = document.getElementById('streamURL');
             mediaSourceURL = document.getElementById('mediaSourceURL');
             loadSettings();
             showVersion();
-            flv_load();
         });
     </script>
     

@@ -1,12 +1,12 @@
 {
-  "name": "flv.js",
-  "version": "1.6.2",
-  "description": "HTML5 FLV Player",
+  "name": "pro-flv.js",
+  "version": "2.0.0",
+  "description": "Professional HTML5 FLV Player",
   "main": "./dist/flv.js",
   "types": "./d.ts/flv.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bilibili/flv.js"
+    "url": "https://github.com/illuspas/pro-fiv.js"
   },
   "keywords": [
     "html5",
@@ -38,6 +38,6 @@
     "webpack": "^5.45.1",
     "webpack-cli": "^4.7.2"
   },
-  "author": "zheng qian <xqq@xqq.im>",
+  "author": "Chen Mingliang",
   "license": "Apache-2.0"
 }
