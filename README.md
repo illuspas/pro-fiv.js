@@ -62,6 +62,9 @@ See [cors.md](docs/cors.md) for more details.
 - H.265 is supported on MacOS when using Safari Browser
 - H.265 is supported on Windows when using 360 Secure Browser
  
+## MediaServer
+- [Node-Media-Server](https://github.com/illuspas/Node-Media-Server)
+- [ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit)
 
 ## Multipart playback
 You only have to provide a playlist for `MediaDataSource`. See [multipart.md](docs/multipart.md)
