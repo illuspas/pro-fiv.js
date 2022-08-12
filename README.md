@@ -6,18 +6,10 @@ A Professional HTML5 Flash Video (FLV) Player written in pure JavaScript without
 
 This project relies on [Media Source Extensions][] to work.
 
-**For FLV live stream playback, please consider [mpegts.js][] which is under active development.**
-
-**This project will become rarely maintained.**
-
-[mpegts.js]: https://github.com/xqq/mpegts.js
 ## Overview
-flv.js works by transmuxing FLV file stream into ISO BMFF (Fragmented MP4) segments, followed by feeding mp4 segments into an HTML5 `<video>` element through [Media Source Extensions][] API.
+pro-flv.js works by transmuxing FLV file stream into ISO BMFF (Fragmented MP4) segments, followed by feeding mp4 segments into an HTML5 `<video>` element through [Media Source Extensions][] API.
 
 [Media Source Extensions]: https://w3c.github.io/media-source/
-
-## Demo
-[http://bilibili.github.io/flv.js/demo/](http://bilibili.github.io/flv.js/demo/)
 
 ## Features
 - FLV container with H.264/H.265 + AAC / MP3 codec playback
