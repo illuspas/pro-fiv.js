@@ -67,6 +67,9 @@ See [cors.md](docs/cors.md) for more details.
 ## Limitations
 - MP3 audio codec is currently not working on IE11 / Edge
 - HTTP FLV live stream is not currently working on all browsers, see [livestream.md](docs/livestream.md)
+- H.265 is supported on MacOS
+- H.265 is supported on Windows when using 360 Secure Browser
+ 
 
 ## Multipart playback
 You only have to provide a playlist for `MediaDataSource`. See [multipart.md](docs/multipart.md)
