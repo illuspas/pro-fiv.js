@@ -3,8 +3,9 @@ pro-flv.js  [![npm](https://img.shields.io/npm/v/pro-flv.js.svg?style=flat)](htt
 ======
 A Professional HTML5 Flash Video (FLV) Player written in pure JavaScript without Flash. LONG LIVE FLV!
 
-
 This project relies on [Media Source Extensions][] to work.
+
+Can I use [Media Source Extensions](https://caniuse.com/mediasource)
 
 ## Overview
 pro-flv.js works by transmuxing FLV file stream into ISO BMFF (Fragmented MP4) segments, followed by feeding mp4 segments into an HTML5 `<video>` element through [Media Source Extensions][] API.
