@@ -1,7 +1,8 @@
 
-flv.js  [![npm](https://img.shields.io/npm/v/flv.js.svg?style=flat)](https://www.npmjs.com/package/flv.js)
+flv.js  [![npm](https://img.shields.io/npm/v/pro-flv.js.svg?style=flat)](https://www.npmjs.com/package/pro-flv.js)
 ======
-An HTML5 Flash Video (FLV) Player written in pure JavaScript without Flash. LONG LIVE FLV!
+A Professional HTML5 Flash Video (FLV) Player written in pure JavaScript without Flash. LONG LIVE FLV!
+
 
 This project relies on [Media Source Extensions][] to work.
 
@@ -19,7 +20,7 @@ flv.js works by transmuxing FLV file stream into ISO BMFF (Fragmented MP4) segme
 [http://bilibili.github.io/flv.js/demo/](http://bilibili.github.io/flv.js/demo/)
 
 ## Features
-- FLV container with H.264 + AAC / MP3 codec playback
+- FLV container with H.264/H.265 + AAC / MP3 codec playback
 - Multipart segmented video playback
 - HTTP FLV low latency live stream playback
 - FLV over WebSocket live stream playback
@@ -87,8 +88,6 @@ See [design.md](docs/design.md)
 
 ## License
 ```
-Copyright (C) 2016 Bilibili. All Rights Reserved.
-
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
