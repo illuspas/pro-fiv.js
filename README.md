@@ -1,5 +1,5 @@
 
-flv.js  [![npm](https://img.shields.io/npm/v/pro-flv.js.svg?style=flat)](https://www.npmjs.com/package/pro-flv.js)
+pro-flv.js  [![npm](https://img.shields.io/npm/v/pro-flv.js.svg?style=flat)](https://www.npmjs.com/package/pro-flv.js)
 ======
 A Professional HTML5 Flash Video (FLV) Player written in pure JavaScript without Flash. LONG LIVE FLV!
 
@@ -29,7 +29,7 @@ flv.js works by transmuxing FLV file stream into ISO BMFF (Fragmented MP4) segme
 
 ## Installation
 ```bash
-npm install --save flv.js
+npm install --save pro-flv.js
 ```
 
 ## Build
