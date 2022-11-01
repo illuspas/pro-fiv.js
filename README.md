@@ -62,6 +62,7 @@ See [cors.md](docs/cors.md) for more details.
 - HTTP FLV live stream is not currently working on all browsers, see [livestream.md](docs/livestream.md)
 - H.265 is supported on MacOS/iPadOS when using Safari Browser
 - H.265 is supported on Windows when using 360 Secure Browser
+- H.265 is supported on all platform when using chrome 107+ (need h265 hardware decoder)
  
 ## MediaServer
 - [Node-Media-Server](https://github.com/illuspas/Node-Media-Server)
