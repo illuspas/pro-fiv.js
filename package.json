@@ -1,6 +1,6 @@
 {
   "name": "pro-flv.js",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Professional HTML5 FLV Player",
   "main": "./dist/flv.min.js",
   "types": "./d.ts/flv.d.ts",
